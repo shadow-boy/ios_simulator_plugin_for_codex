@@ -1,0 +1,15 @@
+{
+  "name": "ios-simulator-codex-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codex plugin for controlling iOS Simulator through MCP.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "mcp": "node ./mcp-server/server.js",
+    "preflight": "node ./mcp-server/server.js --preflight"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

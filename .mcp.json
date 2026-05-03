@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ios-simulator": {
+      "command": "node",
+      "args": ["./mcp-server/server.js"]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ios-simulator",
+  "version": "0.1.0",
+  "description": "Control iOS Simulator from Codex with device management, screenshots, and touch or hardware input.",
+  "author": {
+    "name": "Local Developer",
+    "email": "local@example.com",
+    "url": "https://github.com/local/ios-simulator"
+  },
+  "homepage": "https://github.com/local/ios-simulator",
+  "repository": "https://github.com/local/ios-simulator",
+  "license": "MIT",
+  "keywords": ["ios", "simulator", "xcode", "mcp", "codex"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "iOS Simulator",
+    "shortDescription": "Boot, inspect, screenshot, and drive iOS Simulator.",
+    "longDescription": "A local development plugin that exposes iOS Simulator controls to Codex through MCP tools. It can preflight Xcode, list devices, boot or shut down simulators, capture screenshots, and send touch, swipe, tap, and hardware-button input. Some input helpers use Apple private simulator APIs and are intended only for local development workflows.",
+    "developerName": "Local Developer",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "List available iOS simulators.",
+      "Boot an iPhone simulator and take a screenshot.",
+      "Tap coordinates in the booted simulator."
+    ],
+    "brandColor": "#0A84FF"
+  }
+}
